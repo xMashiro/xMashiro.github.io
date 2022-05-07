@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./css/layui.css"/>
+		<link rel="stylesheet" type="text/css" href="css/end.css"/>
+		<link rel="stylesheet" type="text/css" href="css/endMb.css" media="screen and (max-width:700px)"/>
+		<link rel="stylesheet" type="text/css" href="css/neirong.css" media="screen and (max-width:700px)"/>
+		<script src="./js/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/end.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="div2" onclick="outDiv()">
+			<i class="layui-icon layui-icon-spread-left" style="font-size: 30px; color: #ffffff;" id="btn2"></i>  
+		</div>
+		<div id="div3" onclick="outDiv2()">
+			<i class="layui-icon layui-icon-shrink-right" style="font-size: 30px; color: #ffffff;" id="btn2"></i>  
+		</div>
+		
+		<div id="div1" >		
+			 <ul class="layui-nav layui-nav-tree layui-nav-side layui-anim layui-anim-upbit" id="anim"> 
+			  <li class="layui-nav-item layui-nav-itemed">
+				<a href="javascript:;">导航菜单</a>
+				<dl class="layui-nav-child">
+				  <dd><a onclick="major(this)" name="6">入户门</a></dd>
+				  <dd><a onclick="major(this)" name="3">门、窗</a></dd>
+				  <dd><a onclick="major(this)" name="8">天花板</a></dd>
+				  <dd><a onclick="major(this)" name="2">地面</a></dd>
+				  <dd><a onclick="major(this)" name="5">墙面</a></dd>
+				  <dd><a onclick="major(this)" name="10">给排水</a></dd>
+				  <dd><a onclick="major(this)" name='4'>电气</a></dd>
+				  <dd><a onclick="major(this)" name="11">阳台</a></dd>
+				  <dd><a onclick="major(this)" name="9">卫生间</a></dd>
+				  <dd><a onclick="major(this)" name="1">厨房</a></dd>
+				  <dd><a onclick="major(this)" name="7">收纳</a></dd>
+				  
+				</dl>
+			  </li>			  
+			 
+			</ul>
+		</div>
+		<div id="neirong">
+			<div id="pic">
+				<img id="img" src="img/img6.jpg"  style="width: 100%;">
+			</div>
+			<div class="layui-bg-gray" style="padding: 30px;">
+			  <div class="layui-row layui-col-space15">
+			    <div class="layui-col-md6">
+			      <div class="layui-card">
+			        <div class="layui-card-header"><h2 id="th">入户门</h2></div>
+			        <div class="layui-card-body" id="tv">
+						1.指纹开锁  测试10次，每次均可顺利开启。门锁安装牢固，位置准确。<br><br>2.钥匙开锁  顺利开启。<br><br>3. 外表及垂直度 光洁无缺陷，铰链光洁无锈斑，安装牢固。门套垂直度误差不超过4mm。 <br><br>4.  开启灵活性  门扇顺利开启闭合，不受阻滞。 <br><br>5. 间隙测试 门与门槛间隙4mm-5mm。门与门套间隙不超过3mm。 <br><br>6. 门吸  安装牢固，限位准确。 <br><br>7. 猫眼  安装到位，功能正常。<br><br>8. 防撞胶条  完整性,牢固性。<br><br>9.	门的型号与购房合同的交付标准   材质和防火性能,木门上方有防膨涨孔。';	
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			</div> 
+		</div>
+
+	</body>
+</html>

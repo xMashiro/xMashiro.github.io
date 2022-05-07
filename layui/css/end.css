@@ -1,0 +1,31 @@
+#div1{
+			display: none;
+		}
+		#div2{
+			display: block;
+			    position: fixed;
+			    z-index: 16666669;
+			    bottom: 15px;
+			    left: 15px;
+			    width: 50px;
+			    height: 50px;
+			    line-height: 50px;
+			    border-radius: 2px;
+			    text-align: center;
+			    background-color: #009688;
+			    color: #fff;
+		}
+		#div3{
+			display: none;
+			    position: fixed;
+			    z-index: 16666669;
+			    bottom: 15px;
+			    left: 15px;
+			    width: 50px;
+			    height: 50px;
+			    line-height: 50px;
+			    border-radius: 2px;
+			    text-align: center;
+			    background-color: #009688;
+			    color: #fff;
+		}
